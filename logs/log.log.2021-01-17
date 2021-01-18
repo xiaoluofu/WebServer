@@ -1,0 +1,493 @@
+2021-01-17 11:08:26,192 INFO [com.webserver.core.WebServer] - 正在启动服务端
+2021-01-17 11:08:26,222 INFO [com.webserver.core.WebServer] - 服务端启动完毕
+2021-01-17 11:08:26,222 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 11:08:30,371 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 11:08:30,371 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 11:08:30,372 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 11:08:30,372 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 11:08:30,375 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 11:08:30,375 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 11:08:30,376 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 11:08:30,377 INFO [com.webserver.http.HttpRequest] - uri:/index.html
+2021-01-17 11:08:30,378 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 11:08:30,378 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 11:08:30,378 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 11:08:30,378 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 11:08:30,378 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 11:08:30,378 INFO [com.webserver.http.HttpRequest] - 消息头:Upgrade-Insecure-Requests: 1
+2021-01-17 11:08:30,379 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 11:08:30,379 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-01-17 11:08:30,379 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: none
+2021-01-17 11:08:30,380 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: navigate
+2021-01-17 11:08:30,380 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-User: ?1
+2021-01-17 11:08:30,380 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: document
+2021-01-17 11:08:30,380 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 11:08:30,381 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 11:08:30,381 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 11:08:30,381 INFO [com.webserver.http.HttpRequest] - 消息头:
+2021-01-17 11:08:30,382 ERROR [com.webserver.core.ClientHandler] - 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.webserver.http.HttpRequest.parseRequestHead(HttpRequest.java:62)
+	at com.webserver.http.HttpRequest.<init>(HttpRequest.java:25)
+	at com.webserver.core.ClientHandler.run(ClientHandler.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-17 11:08:30,491 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 11:08:30,491 INFO [com.webserver.http.HttpRequest] - uri:/index.html
+2021-01-17 11:08:30,491 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 11:08:30,491 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 11:08:30,491 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 11:08:30,491 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 11:08:30,492 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 11:08:30,492 INFO [com.webserver.http.HttpRequest] - 消息头:Upgrade-Insecure-Requests: 1
+2021-01-17 11:08:30,492 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 11:08:30,493 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-01-17 11:08:30,493 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: none
+2021-01-17 11:08:30,493 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: navigate
+2021-01-17 11:08:30,493 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-User: ?1
+2021-01-17 11:08:30,493 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: document
+2021-01-17 11:08:30,494 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 11:08:30,494 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 11:08:30,494 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 11:08:30,494 INFO [com.webserver.http.HttpRequest] - 消息头:
+2021-01-17 11:08:30,494 ERROR [com.webserver.core.ClientHandler] - 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.webserver.http.HttpRequest.parseRequestHead(HttpRequest.java:62)
+	at com.webserver.http.HttpRequest.<init>(HttpRequest.java:25)
+	at com.webserver.core.ClientHandler.run(ClientHandler.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-17 11:08:30,496 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 11:08:30,496 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 11:08:30,496 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 11:08:30,496 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 11:08:30,497 INFO [com.webserver.http.HttpRequest] - uri:/index.html
+2021-01-17 11:08:30,497 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 11:08:30,497 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 11:08:30,497 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 11:08:30,497 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 11:08:30,498 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 11:08:30,498 INFO [com.webserver.http.HttpRequest] - 消息头:Upgrade-Insecure-Requests: 1
+2021-01-17 11:08:30,498 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 11:08:30,498 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-01-17 11:08:30,499 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: none
+2021-01-17 11:08:30,506 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: navigate
+2021-01-17 11:08:30,506 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-User: ?1
+2021-01-17 11:08:30,506 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: document
+2021-01-17 11:08:30,507 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 11:08:30,507 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 11:08:30,507 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 11:08:30,507 INFO [com.webserver.http.HttpRequest] - 消息头:
+2021-01-17 11:08:30,507 ERROR [com.webserver.core.ClientHandler] - 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.webserver.http.HttpRequest.parseRequestHead(HttpRequest.java:62)
+	at com.webserver.http.HttpRequest.<init>(HttpRequest.java:25)
+	at com.webserver.core.ClientHandler.run(ClientHandler.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-17 11:08:31,632 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 11:08:31,632 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 11:08:31,632 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 11:08:31,632 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 11:08:31,635 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 11:08:31,635 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 11:08:31,635 INFO [com.webserver.http.HttpRequest] - uri:/index.html
+2021-01-17 11:08:31,635 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 11:08:31,635 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 11:08:31,635 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 11:08:31,635 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 11:08:31,636 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 11:08:31,636 INFO [com.webserver.http.HttpRequest] - 消息头:Cache-Control: max-age=0
+2021-01-17 11:08:31,636 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 11:08:31,636 INFO [com.webserver.http.HttpRequest] - 消息头:Upgrade-Insecure-Requests: 1
+2021-01-17 11:08:31,636 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 11:08:31,638 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-01-17 11:08:31,638 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: none
+2021-01-17 11:08:31,639 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: navigate
+2021-01-17 11:08:31,639 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-User: ?1
+2021-01-17 11:08:31,639 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: document
+2021-01-17 11:08:31,640 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 11:08:31,640 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 11:08:31,640 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 11:08:31,640 INFO [com.webserver.http.HttpRequest] - 消息头:
+2021-01-17 11:08:31,641 ERROR [com.webserver.core.ClientHandler] - 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.webserver.http.HttpRequest.parseRequestHead(HttpRequest.java:62)
+	at com.webserver.http.HttpRequest.<init>(HttpRequest.java:25)
+	at com.webserver.core.ClientHandler.run(ClientHandler.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-17 11:08:31,642 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 11:08:31,642 INFO [com.webserver.http.HttpRequest] - uri:/index.html
+2021-01-17 11:08:31,642 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 11:08:31,642 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 11:08:31,642 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 11:08:31,642 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 11:08:31,643 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 11:08:31,643 INFO [com.webserver.http.HttpRequest] - 消息头:Cache-Control: max-age=0
+2021-01-17 11:08:31,643 INFO [com.webserver.http.HttpRequest] - 消息头:Upgrade-Insecure-Requests: 1
+2021-01-17 11:08:31,643 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 11:08:31,644 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-01-17 11:08:31,644 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: none
+2021-01-17 11:08:31,644 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: navigate
+2021-01-17 11:08:31,644 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-User: ?1
+2021-01-17 11:08:31,644 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: document
+2021-01-17 11:08:31,644 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 11:08:31,644 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 11:08:31,645 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 11:08:31,645 INFO [com.webserver.http.HttpRequest] - 消息头:
+2021-01-17 11:08:31,645 ERROR [com.webserver.core.ClientHandler] - 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.webserver.http.HttpRequest.parseRequestHead(HttpRequest.java:62)
+	at com.webserver.http.HttpRequest.<init>(HttpRequest.java:25)
+	at com.webserver.core.ClientHandler.run(ClientHandler.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-17 11:08:31,646 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 11:08:31,646 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 11:08:31,646 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 11:08:31,647 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 11:08:31,647 INFO [com.webserver.http.HttpRequest] - uri:/index.html
+2021-01-17 11:08:31,647 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 11:08:31,648 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 11:08:31,648 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 11:08:31,648 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 11:08:31,648 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 11:08:31,648 INFO [com.webserver.http.HttpRequest] - 消息头:Cache-Control: max-age=0
+2021-01-17 11:08:31,649 INFO [com.webserver.http.HttpRequest] - 消息头:Upgrade-Insecure-Requests: 1
+2021-01-17 11:08:31,649 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 11:08:31,650 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-01-17 11:08:31,650 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: none
+2021-01-17 11:08:31,650 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: navigate
+2021-01-17 11:08:31,651 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-User: ?1
+2021-01-17 11:08:31,651 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: document
+2021-01-17 11:08:31,651 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 11:08:31,651 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 11:08:31,651 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 11:08:31,651 INFO [com.webserver.http.HttpRequest] - 消息头:
+2021-01-17 11:08:31,651 ERROR [com.webserver.core.ClientHandler] - 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.webserver.http.HttpRequest.parseRequestHead(HttpRequest.java:62)
+	at com.webserver.http.HttpRequest.<init>(HttpRequest.java:25)
+	at com.webserver.core.ClientHandler.run(ClientHandler.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-17 19:53:24,850 INFO [com.webserver.core.WebServer] - 正在启动服务端
+2021-01-17 19:53:24,862 INFO [com.webserver.core.WebServer] - 服务端启动完毕
+2021-01-17 19:53:24,862 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 19:53:26,468 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 19:53:26,468 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 19:53:26,468 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 19:53:26,468 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 19:53:26,473 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 19:53:26,473 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 19:53:26,473 INFO [com.webserver.http.HttpRequest] - uri:/myweb/index.html
+2021-01-17 19:53:26,474 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 19:53:26,474 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 19:53:26,474 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 19:53:26,474 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 19:53:26,474 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 19:53:26,474 INFO [com.webserver.http.HttpRequest] - 消息头:Upgrade-Insecure-Requests: 1
+2021-01-17 19:53:26,475 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 19:53:26,475 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-01-17 19:53:26,476 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: none
+2021-01-17 19:53:26,477 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: navigate
+2021-01-17 19:53:26,477 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-User: ?1
+2021-01-17 19:53:26,477 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: document
+2021-01-17 19:53:26,477 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 19:53:26,478 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 19:53:26,478 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 19:53:26,478 INFO [com.webserver.http.HttpRequest] - {Cookie=Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494, Accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9, Upgrade-Insecure-Requests=1, Connection=keep-alive, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36, Sec-Fetch-Site=none, Sec-Fetch-Dest=document, Host=localhost:8088, Sec-Fetch-User=?1, Accept-Encoding=gzip, deflate, br, Accept-Language=zh-CN,zh;q=0.9, Sec-Fetch-Mode=navigate}
+2021-01-17 19:53:26,482 INFO [com.webserver.http.HttpRequest] - 消息头解析完毕
+2021-01-17 19:53:26,482 INFO [com.webserver.http.HttpRequest] - 正在解析消息正文
+2021-01-17 19:53:26,482 INFO [com.webserver.http.HttpRequest] - 消息正文解析完毕
+2021-01-17 19:53:26,483 INFO [com.webserver.core.ClientHandler] - 发送响应完毕
+2021-01-17 19:53:26,485 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 19:58:31,844 INFO [com.webserver.core.WebServer] - 正在启动服务端
+2021-01-17 19:58:31,845 INFO [com.webserver.core.WebServer] - 服务端启动完毕
+2021-01-17 19:58:31,845 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 19:58:32,543 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 19:58:32,544 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 19:58:32,544 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 19:58:32,544 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 19:58:32,549 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 19:58:32,549 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 19:58:32,549 INFO [com.webserver.http.HttpRequest] - uri:/myweb/index.html
+2021-01-17 19:58:32,549 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 19:58:32,549 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 19:58:32,550 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 19:58:32,550 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 19:58:32,550 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 19:58:32,550 INFO [com.webserver.http.HttpRequest] - 消息头:Cache-Control: max-age=0
+2021-01-17 19:58:32,550 INFO [com.webserver.http.HttpRequest] - 消息头:Upgrade-Insecure-Requests: 1
+2021-01-17 19:58:32,551 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 19:58:32,551 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 19:58:32,551 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-01-17 19:58:32,551 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: none
+2021-01-17 19:58:32,552 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: navigate
+2021-01-17 19:58:32,552 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-User: ?1
+2021-01-17 19:58:32,552 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: document
+2021-01-17 19:58:32,552 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 19:58:32,552 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 19:58:32,553 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 19:58:32,553 INFO [com.webserver.http.HttpRequest] - {Cookie=Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494, Accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9, Connection=keep-alive, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36, Sec-Fetch-Site=none, Sec-Fetch-Dest=document, Host=localhost:8088, Accept-Encoding=gzip, deflate, br, Sec-Fetch-Mode=navigate, Cache-Control=max-age=0, Upgrade-Insecure-Requests=1, Sec-Fetch-User=?1, Accept-Language=zh-CN,zh;q=0.9}
+2021-01-17 19:58:32,553 INFO [com.webserver.http.HttpRequest] - 消息头解析完毕
+2021-01-17 19:58:32,553 INFO [com.webserver.http.HttpRequest] - 正在解析消息正文
+2021-01-17 19:58:32,553 INFO [com.webserver.http.HttpRequest] - 消息正文解析完毕
+2021-01-17 19:58:32,592 INFO [com.webserver.core.ClientHandler] - 发送响应完毕
+2021-01-17 19:58:32,599 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 19:58:32,599 INFO [com.webserver.http.HttpRequest] - uri:/myweb/yjs.jpg
+2021-01-17 19:58:32,599 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 19:58:32,599 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 19:58:32,599 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 19:58:32,599 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 19:58:32,599 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 19:58:32,599 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 19:58:32,600 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+2021-01-17 19:58:32,600 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: same-origin
+2021-01-17 19:58:32,600 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: no-cors
+2021-01-17 19:58:32,600 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: image
+2021-01-17 19:58:32,600 INFO [com.webserver.http.HttpRequest] - 消息头:Referer: http://localhost:8088/myweb/index.html
+2021-01-17 19:58:32,601 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 19:58:32,601 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 19:58:32,602 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 19:58:32,602 INFO [com.webserver.http.HttpRequest] - {Cookie=Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494, Accept=image/avif,image/webp,image/apng,image/*,*/*;q=0.8, Connection=keep-alive, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36, Referer=http://localhost:8088/myweb/index.html, Sec-Fetch-Site=same-origin, Sec-Fetch-Dest=image, Host=localhost:8088, Accept-Encoding=gzip, deflate, br, Accept-Language=zh-CN,zh;q=0.9, Sec-Fetch-Mode=no-cors}
+2021-01-17 19:58:32,602 INFO [com.webserver.http.HttpRequest] - 消息头解析完毕
+2021-01-17 19:58:32,602 INFO [com.webserver.http.HttpRequest] - 正在解析消息正文
+2021-01-17 19:58:32,602 INFO [com.webserver.http.HttpRequest] - 消息正文解析完毕
+2021-01-17 19:58:32,610 INFO [com.webserver.core.ClientHandler] - 发送响应完毕
+2021-01-17 19:58:32,678 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 19:58:32,678 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 19:58:32,678 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 19:58:32,678 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 19:58:32,679 INFO [com.webserver.http.HttpRequest] - uri:/favicon.ico
+2021-01-17 19:58:32,679 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 19:58:32,679 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 19:58:32,679 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 19:58:32,689 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 19:58:32,689 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 19:58:32,689 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 19:58:32,690 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+2021-01-17 19:58:32,690 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: same-origin
+2021-01-17 19:58:32,690 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: no-cors
+2021-01-17 19:58:32,690 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: image
+2021-01-17 19:58:32,690 INFO [com.webserver.http.HttpRequest] - 消息头:Referer: http://localhost:8088/myweb/index.html
+2021-01-17 19:58:32,690 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 19:58:32,691 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 19:58:32,691 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 19:58:32,691 INFO [com.webserver.http.HttpRequest] - {Cookie=Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494, Accept=image/avif,image/webp,image/apng,image/*,*/*;q=0.8, Connection=keep-alive, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36, Referer=http://localhost:8088/myweb/index.html, Sec-Fetch-Site=same-origin, Sec-Fetch-Dest=image, Host=localhost:8088, Accept-Encoding=gzip, deflate, br, Accept-Language=zh-CN,zh;q=0.9, Sec-Fetch-Mode=no-cors}
+2021-01-17 19:58:32,691 INFO [com.webserver.http.HttpRequest] - 消息头解析完毕
+2021-01-17 19:58:32,691 INFO [com.webserver.http.HttpRequest] - 正在解析消息正文
+2021-01-17 19:58:32,691 INFO [com.webserver.http.HttpRequest] - 消息正文解析完毕
+2021-01-17 19:58:32,693 ERROR [com.webserver.core.ClientHandler] - Software caused connection abort: socket write error
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at com.webserver.core.ClientHandler.run(ClientHandler.java:62)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-17 20:01:10,019 INFO [com.webserver.core.WebServer] - 正在启动服务端
+2021-01-17 20:01:10,020 INFO [com.webserver.core.WebServer] - 服务端启动完毕
+2021-01-17 20:01:10,020 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 20:01:10,669 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 20:01:10,669 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 20:01:10,670 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 20:01:10,670 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 20:01:10,672 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 20:01:10,672 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 20:01:10,673 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 20:01:10,673 INFO [com.webserver.http.HttpRequest] - uri:/myweb/index.html
+2021-01-17 20:01:10,673 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 20:01:10,673 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 20:01:10,673 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 20:01:10,673 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 20:01:10,673 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 20:01:10,673 INFO [com.webserver.http.HttpRequest] - 消息头:Cache-Control: max-age=0
+2021-01-17 20:01:10,674 INFO [com.webserver.http.HttpRequest] - 消息头:Upgrade-Insecure-Requests: 1
+2021-01-17 20:01:10,674 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 20:01:10,677 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-01-17 20:01:10,677 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: none
+2021-01-17 20:01:10,677 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: navigate
+2021-01-17 20:01:10,677 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-User: ?1
+2021-01-17 20:01:10,677 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: document
+2021-01-17 20:01:10,678 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 20:01:10,678 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 20:01:10,678 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 20:01:10,678 INFO [com.webserver.http.HttpRequest] - {Cookie=Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494, Accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9, Connection=keep-alive, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36, Sec-Fetch-Site=none, Sec-Fetch-Dest=document, Host=localhost:8088, Accept-Encoding=gzip, deflate, br, Sec-Fetch-Mode=navigate, Cache-Control=max-age=0, Upgrade-Insecure-Requests=1, Sec-Fetch-User=?1, Accept-Language=zh-CN,zh;q=0.9}
+2021-01-17 20:01:10,679 INFO [com.webserver.http.HttpRequest] - 消息头解析完毕
+2021-01-17 20:01:10,679 INFO [com.webserver.http.HttpRequest] - 正在解析消息正文
+2021-01-17 20:01:10,679 INFO [com.webserver.http.HttpRequest] - 消息正文解析完毕
+2021-01-17 20:01:10,680 INFO [com.webserver.core.ClientHandler] - 发送响应完毕
+2021-01-17 20:01:10,701 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 20:01:10,702 INFO [com.webserver.http.HttpRequest] - uri:/myweb/yjs.jpg
+2021-01-17 20:01:10,702 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 20:01:10,702 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 20:01:10,702 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 20:01:10,702 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 20:01:10,702 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 20:01:10,702 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 20:01:10,703 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+2021-01-17 20:01:10,703 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: same-origin
+2021-01-17 20:01:10,703 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: no-cors
+2021-01-17 20:01:10,703 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: image
+2021-01-17 20:01:10,703 INFO [com.webserver.http.HttpRequest] - 消息头:Referer: http://localhost:8088/myweb/index.html
+2021-01-17 20:01:10,704 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 20:01:10,704 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 20:01:10,704 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 20:01:10,704 INFO [com.webserver.http.HttpRequest] - {Cookie=Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494, Accept=image/avif,image/webp,image/apng,image/*,*/*;q=0.8, Connection=keep-alive, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36, Referer=http://localhost:8088/myweb/index.html, Sec-Fetch-Site=same-origin, Sec-Fetch-Dest=image, Host=localhost:8088, Accept-Encoding=gzip, deflate, br, Accept-Language=zh-CN,zh;q=0.9, Sec-Fetch-Mode=no-cors}
+2021-01-17 20:01:10,704 INFO [com.webserver.http.HttpRequest] - 消息头解析完毕
+2021-01-17 20:01:10,704 INFO [com.webserver.http.HttpRequest] - 正在解析消息正文
+2021-01-17 20:01:10,704 INFO [com.webserver.http.HttpRequest] - 消息正文解析完毕
+2021-01-17 20:01:10,705 INFO [com.webserver.core.ClientHandler] - 发送响应完毕
+2021-01-17 20:01:10,718 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 20:01:10,718 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 20:01:10,719 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 20:01:10,719 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 20:01:10,719 INFO [com.webserver.http.HttpRequest] - uri:/favicon.ico
+2021-01-17 20:01:10,719 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 20:01:10,719 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 20:01:10,719 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 20:01:10,720 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 20:01:10,720 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 20:01:10,720 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 20:01:10,721 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+2021-01-17 20:01:10,721 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: same-origin
+2021-01-17 20:01:10,721 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: no-cors
+2021-01-17 20:01:10,721 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: image
+2021-01-17 20:01:10,721 INFO [com.webserver.http.HttpRequest] - 消息头:Referer: http://localhost:8088/myweb/index.html
+2021-01-17 20:01:10,722 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 20:01:10,722 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 20:01:10,723 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 20:01:10,723 INFO [com.webserver.http.HttpRequest] - {Cookie=Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494, Accept=image/avif,image/webp,image/apng,image/*,*/*;q=0.8, Connection=keep-alive, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36, Referer=http://localhost:8088/myweb/index.html, Sec-Fetch-Site=same-origin, Sec-Fetch-Dest=image, Host=localhost:8088, Accept-Encoding=gzip, deflate, br, Accept-Language=zh-CN,zh;q=0.9, Sec-Fetch-Mode=no-cors}
+2021-01-17 20:01:10,723 INFO [com.webserver.http.HttpRequest] - 消息头解析完毕
+2021-01-17 20:01:10,723 INFO [com.webserver.http.HttpRequest] - 正在解析消息正文
+2021-01-17 20:01:10,723 INFO [com.webserver.http.HttpRequest] - 消息正文解析完毕
+2021-01-17 20:01:10,724 INFO [com.webserver.core.ClientHandler] - 发送响应完毕
+2021-01-17 20:23:02,248 INFO [com.webserver.core.WebServer] - 正在启动服务端
+2021-01-17 20:23:02,249 INFO [com.webserver.core.WebServer] - 服务端启动完毕
+2021-01-17 20:23:02,249 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 20:23:03,476 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 20:23:03,476 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 20:23:03,476 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 20:23:03,476 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 20:23:03,480 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 20:23:03,480 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 20:23:03,480 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 20:23:03,480 INFO [com.webserver.http.HttpRequest] - uri:/myweb/index.html
+2021-01-17 20:23:03,480 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 20:23:03,481 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 20:23:03,481 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 20:23:03,481 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 20:23:03,481 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 20:23:03,481 INFO [com.webserver.http.HttpRequest] - 消息头:Cache-Control: max-age=0
+2021-01-17 20:23:03,482 INFO [com.webserver.http.HttpRequest] - 消息头:Upgrade-Insecure-Requests: 1
+2021-01-17 20:23:03,483 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 20:23:03,483 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-01-17 20:23:03,484 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: none
+2021-01-17 20:23:03,484 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: navigate
+2021-01-17 20:23:03,484 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-User: ?1
+2021-01-17 20:23:03,484 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: document
+2021-01-17 20:23:03,484 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 20:23:03,485 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 20:23:03,485 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 20:23:03,485 INFO [com.webserver.http.HttpRequest] - {Cookie=Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494, Accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9, Connection=keep-alive, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36, Sec-Fetch-Site=none, Sec-Fetch-Dest=document, Host=localhost:8088, Accept-Encoding=gzip, deflate, br, Sec-Fetch-Mode=navigate, Cache-Control=max-age=0, Upgrade-Insecure-Requests=1, Sec-Fetch-User=?1, Accept-Language=zh-CN,zh;q=0.9}
+2021-01-17 20:23:03,485 INFO [com.webserver.http.HttpRequest] - 消息头解析完毕
+2021-01-17 20:23:03,485 INFO [com.webserver.http.HttpRequest] - 正在解析消息正文
+2021-01-17 20:23:03,485 INFO [com.webserver.http.HttpRequest] - 消息正文解析完毕
+2021-01-17 20:23:03,487 INFO [com.webserver.core.ClientHandler] - 开始发送响应...
+2021-01-17 20:23:03,488 INFO [com.webserver.core.ClientHandler] - 发送响应完毕
+2021-01-17 20:23:03,506 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 20:23:03,506 INFO [com.webserver.http.HttpRequest] - uri:/myweb/yjs.jpg
+2021-01-17 20:23:03,506 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 20:23:03,506 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 20:23:03,506 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 20:23:03,507 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 20:23:03,507 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 20:23:03,507 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 20:23:03,508 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+2021-01-17 20:23:03,508 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: same-origin
+2021-01-17 20:23:03,508 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: no-cors
+2021-01-17 20:23:03,508 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: image
+2021-01-17 20:23:03,508 INFO [com.webserver.http.HttpRequest] - 消息头:Referer: http://localhost:8088/myweb/index.html
+2021-01-17 20:23:03,509 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 20:23:03,509 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 20:23:03,509 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 20:23:03,509 INFO [com.webserver.http.HttpRequest] - {Cookie=Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494, Accept=image/avif,image/webp,image/apng,image/*,*/*;q=0.8, Connection=keep-alive, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36, Referer=http://localhost:8088/myweb/index.html, Sec-Fetch-Site=same-origin, Sec-Fetch-Dest=image, Host=localhost:8088, Accept-Encoding=gzip, deflate, br, Accept-Language=zh-CN,zh;q=0.9, Sec-Fetch-Mode=no-cors}
+2021-01-17 20:23:03,509 INFO [com.webserver.http.HttpRequest] - 消息头解析完毕
+2021-01-17 20:23:03,509 INFO [com.webserver.http.HttpRequest] - 正在解析消息正文
+2021-01-17 20:23:03,509 INFO [com.webserver.http.HttpRequest] - 消息正文解析完毕
+2021-01-17 20:23:03,509 INFO [com.webserver.core.ClientHandler] - 开始发送响应...
+2021-01-17 20:23:03,573 INFO [com.webserver.core.ClientHandler] - 发送响应完毕
+2021-01-17 20:23:13,170 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 20:23:13,170 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 20:23:13,171 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 20:23:13,171 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 20:23:13,171 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 20:23:13,171 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 20:23:13,172 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 20:23:13,179 INFO [com.webserver.http.HttpRequest] - uri:/myweb/indddex.html
+2021-01-17 20:23:13,179 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 20:23:13,179 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 20:23:13,179 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 20:23:13,180 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 20:23:13,180 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 20:23:13,180 INFO [com.webserver.http.HttpRequest] - 消息头:Upgrade-Insecure-Requests: 1
+2021-01-17 20:23:13,180 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 20:23:13,181 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-01-17 20:23:13,181 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: none
+2021-01-17 20:23:13,181 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: navigate
+2021-01-17 20:23:13,181 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-User: ?1
+2021-01-17 20:23:13,181 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: document
+2021-01-17 20:23:13,181 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 20:23:13,181 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 20:23:13,182 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 20:23:13,182 INFO [com.webserver.http.HttpRequest] - {Cookie=Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494, Accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9, Upgrade-Insecure-Requests=1, Connection=keep-alive, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36, Sec-Fetch-Site=none, Sec-Fetch-Dest=document, Host=localhost:8088, Sec-Fetch-User=?1, Accept-Encoding=gzip, deflate, br, Accept-Language=zh-CN,zh;q=0.9, Sec-Fetch-Mode=navigate}
+2021-01-17 20:23:13,182 INFO [com.webserver.http.HttpRequest] - 消息头解析完毕
+2021-01-17 20:23:13,183 INFO [com.webserver.http.HttpRequest] - 正在解析消息正文
+2021-01-17 20:23:13,183 INFO [com.webserver.http.HttpRequest] - 消息正文解析完毕
+2021-01-17 20:23:13,183 INFO [com.webserver.core.ClientHandler] - 开始发送响应...
+2021-01-17 20:23:13,183 INFO [com.webserver.core.ClientHandler] - 发送响应完毕
+2021-01-17 20:23:25,480 INFO [com.webserver.core.WebServer] - 客户端连接完毕
+2021-01-17 20:23:25,484 INFO [com.webserver.core.WebServer] - 正在连接客户端
+2021-01-17 20:23:25,484 INFO [com.webserver.http.HttpRequest] - 正在解析请求行
+2021-01-17 20:23:25,484 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 20:23:25,484 INFO [com.webserver.http.HttpRequest] - uri:/myweb/index.html
+2021-01-17 20:23:25,484 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 20:23:25,484 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 20:23:25,484 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 20:23:25,485 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 20:23:25,485 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 20:23:25,485 INFO [com.webserver.http.HttpRequest] - 消息头:Upgrade-Insecure-Requests: 1
+2021-01-17 20:23:25,485 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 20:23:25,486 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-01-17 20:23:25,486 INFO [com.webserver.http.HttpRequest] - 消息头:Purpose: prefetch
+2021-01-17 20:23:25,486 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: none
+2021-01-17 20:23:25,486 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: navigate
+2021-01-17 20:23:25,486 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-User: ?1
+2021-01-17 20:23:25,486 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: document
+2021-01-17 20:23:25,486 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 20:23:25,487 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 20:23:25,487 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 20:23:25,487 INFO [com.webserver.http.HttpRequest] - {Cookie=Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494, Accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9, Connection=keep-alive, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36, Sec-Fetch-Site=none, Sec-Fetch-Dest=document, Host=localhost:8088, Purpose=prefetch, Accept-Encoding=gzip, deflate, br, Sec-Fetch-Mode=navigate, Upgrade-Insecure-Requests=1, Sec-Fetch-User=?1, Accept-Language=zh-CN,zh;q=0.9}
+2021-01-17 20:23:25,487 INFO [com.webserver.http.HttpRequest] - 消息头解析完毕
+2021-01-17 20:23:25,487 INFO [com.webserver.http.HttpRequest] - 正在解析消息正文
+2021-01-17 20:23:25,487 INFO [com.webserver.http.HttpRequest] - 消息正文解析完毕
+2021-01-17 20:23:25,487 INFO [com.webserver.core.ClientHandler] - 开始发送响应...
+2021-01-17 20:23:25,488 INFO [com.webserver.core.ClientHandler] - 发送响应完毕
+2021-01-17 20:23:25,515 INFO [com.webserver.http.HttpRequest] - method:GET
+2021-01-17 20:23:25,516 INFO [com.webserver.http.HttpRequest] - uri:/myweb/yjs.jpg
+2021-01-17 20:23:25,516 INFO [com.webserver.http.HttpRequest] - protocol:HTTP/1.1
+2021-01-17 20:23:25,516 INFO [com.webserver.http.HttpRequest] - 请求行解析完毕
+2021-01-17 20:23:25,516 INFO [com.webserver.http.HttpRequest] - 正在解析消息头
+2021-01-17 20:23:25,516 INFO [com.webserver.http.HttpRequest] - 消息头:Host: localhost:8088
+2021-01-17 20:23:25,516 INFO [com.webserver.http.HttpRequest] - 消息头:Connection: keep-alive
+2021-01-17 20:23:25,516 INFO [com.webserver.http.HttpRequest] - 消息头:User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+2021-01-17 20:23:25,517 INFO [com.webserver.http.HttpRequest] - 消息头:Accept: application/signed-exchange;v=b3;q=0.9,*/*;q=0.8
+2021-01-17 20:23:25,517 INFO [com.webserver.http.HttpRequest] - 消息头:Purpose: prefetch
+2021-01-17 20:23:25,517 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Site: same-origin
+2021-01-17 20:23:25,517 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Mode: no-cors
+2021-01-17 20:23:25,517 INFO [com.webserver.http.HttpRequest] - 消息头:Sec-Fetch-Dest: image
+2021-01-17 20:23:25,517 INFO [com.webserver.http.HttpRequest] - 消息头:Referer: http://localhost:8088/myweb/index.html
+2021-01-17 20:23:25,517 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Encoding: gzip, deflate, br
+2021-01-17 20:23:25,518 INFO [com.webserver.http.HttpRequest] - 消息头:Accept-Language: zh-CN,zh;q=0.9
+2021-01-17 20:23:25,518 INFO [com.webserver.http.HttpRequest] - 消息头:Cookie: Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494
+2021-01-17 20:23:25,518 INFO [com.webserver.http.HttpRequest] - {Cookie=Idea-d1e38de=66921fbd-602c-4c34-9bf9-79d42bfdbb85; Idea-673db54e=d5b58630-3141-4b37-af88-66a4adb52494, Accept=application/signed-exchange;v=b3;q=0.9,*/*;q=0.8, Connection=keep-alive, User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36, Referer=http://localhost:8088/myweb/index.html, Sec-Fetch-Site=same-origin, Sec-Fetch-Dest=image, Host=localhost:8088, Purpose=prefetch, Accept-Encoding=gzip, deflate, br, Accept-Language=zh-CN,zh;q=0.9, Sec-Fetch-Mode=no-cors}
+2021-01-17 20:23:25,518 INFO [com.webserver.http.HttpRequest] - 消息头解析完毕
+2021-01-17 20:23:25,518 INFO [com.webserver.http.HttpRequest] - 正在解析消息正文
+2021-01-17 20:23:25,518 INFO [com.webserver.http.HttpRequest] - 消息正文解析完毕
+2021-01-17 20:23:25,518 INFO [com.webserver.core.ClientHandler] - 开始发送响应...
+2021-01-17 20:23:25,522 INFO [com.webserver.core.ClientHandler] - 发送响应完毕

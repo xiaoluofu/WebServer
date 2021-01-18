@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+</head>
+<body background="tu.jpg">
+<center>
+    <h2>用户注册界面</h2>
+    <hr>
+    <table background="tu2.jpg" width="60%" border="1px">
+        <form action="login.php" method="post">
+            <tr align="center">
+                <td>用户名:</td>
+                <td><input required="required" type="text" name="username" placeholder="请输入英文/数字" onkeyup="this.value=this.value.replace(/\s+/g,'')"></td>
+            </tr>
+            <tr align="center">
+                <td>密&nbsp;&nbsp;码:</td>
+                <td><input required="required" type="password" name="password" placeholder="请输入8位密码" maxlength="8" onkeyup="this.value=this.value.replace(/\s+/g,'')"></td>
+            </tr>
+            <tr align="center">
+                <td>重复密码:</td>
+                <td><input required="required" type="password" name="password1" placeholder="请重复输入8位密码" maxlength="8" onkeyup="this.value=this.value.replace(/\s+/g,'')"></td>
+            </tr>
+            <tr align="center">
+                <td>性别:</td>
+                <td><input  type="radio" name="sex" value="man" checked>男&nbsp;&nbsp;&nbsp;&nbsp;</input>
+                    <input  type="radio" name="sex" value="woman" >女</input></td>
+            </tr>
+            <tr align="center">
+                <td>年龄:</td>
+                <td><select  name="age">
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                </select>岁</td>
+            </tr>
+            <tr align="center">
+                <td>电话:</td>
+                <td><input required="required" type="text" name="tel" maxlength="11" placeholder="请输入11位手机号" oninput="value=value.replace(/[^\d]/g,'')"></td>
+            </tr>
+            <tr align="center">
+                <td>电子邮箱:</td>
+                <td><input required="required" type="text" name="email" placeholder="请输入电子邮箱" onkeyup="this.value=this.value.replace(/\s+/g,'')"></td>
+            </tr>
+            <tr align="center">
+                <td>描述:</td>
+                <td><textarea required="required" type="textfield" name="miaoshu" placeholder="请输入自身描述" onkeyup="this.value=this.value.replace(/\s+/g,'')" cols"50" rows="3"></td>
+            </tr>
+        </form>
+    </table>
+</center>
+</body>
+</html>

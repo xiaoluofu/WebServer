@@ -1,0 +1,5 @@
+2021-01-18 09:51:41,979 INFO [com.webserver.servlet.ShowAllUserServlet] - 开始生成动态页面..
+2021-01-18 09:51:42,797 INFO [com.webserver.servlet.ShowAllUserServlet] - 动态页面生成完毕
+2021-01-18 16:25:47,016 INFO [com.webserver.core.ServerContext] - servletMapping:{/myweb/regUser=com.webserver.servlet.RegServlet@3fcb13cc, /myweb/loginUser=com.webserver.servlet.LoginServlet@711022ee, /myweb/showAllUser=com.webserver.servlet.ShowAllUserServlet@e8bf75c, /myweb/updateUser=com.webserver.servlet.UpdataServlet@322cc321}
+2021-01-18 16:25:47,016 INFO [com.webserver.servlet.ShowAllUserServlet] - 开始生成动态页面..
+2021-01-18 16:25:47,709 INFO [com.webserver.servlet.ShowAllUserServlet] - 动态页面生成完毕

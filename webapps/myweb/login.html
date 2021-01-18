@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+
+</head>
+<body>
+<center>
+    <h1>欢迎登录</h1>
+    <form method="get" action="./loginUser">
+        <table border="1">
+            <tr>
+                <td>用户名</td>
+
+                <td><input name="username" type="text"></td>
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td><input name="password" type="password"></td>
+            </tr>
+            <tr>
+                <!--
+                    td中的属性colspan表示当前列是跨几列显示
+                    align属性时表示内容的对齐方式
+                -->
+                <td colspan="2" align="center">
+                    <!--
+                        提交表单的按钮，type类型为submit
+                        需要注意该按钮必须被包含在一个form表单中才能发挥作用，此时
+                        点击这个按钮就会把包含他的表单提交了。提交的路径由表单自身的
+                        action属性决定
+                    -->
+                    <input type="submit" value="登录">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    <h3><a href="updata.html">修改密码</a> </h3>
+</center>
+</body>
+</html>
